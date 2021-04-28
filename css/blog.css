@@ -1,0 +1,21 @@
+#blog .contenedor img{
+    width: 250px;
+    height: 250px;
+    border: solid 4px tomato;
+}
+
+#blog {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#blog .contenedor{
+    display: flex; /*definicion de cajas de tipo flexbox*/
+    justify-content: center;/*justificacion al centro*/
+    flex-wrap: wrap;/*define el uso de multilineas si no tiene el espcacio suficiente en pantalla*/
+}
+
+#blog .contenedor article{
+    margin: 15px;
+}
